@@ -1,4 +1,3 @@
-FROM debian
+FROM apnpucky/docker-debian-cmake-boost-gfortran
 MAINTAINER APN
-RUN apt-get update -y -qq
-RUN apt-get install -y -qq build-essential gfortran cmake libboost-all-dev libgsl-dev lcov && apt-get clean
+RUN apt-get update -y -qq && apt-get install -y -qq looptools
