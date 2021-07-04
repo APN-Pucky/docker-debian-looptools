@@ -1,5 +1,5 @@
-# apnpucky/docker-debian-cmake-boost-gfortran
+# apnpucky/docker-debian-looptools
 
 ### Overview
-This image provides a Debian Jessie with the GNU's gcc and make and many more installed.
+This image provides a Debian Jessie with the looptools installed.
 
